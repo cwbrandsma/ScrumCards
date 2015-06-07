@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */; };
+		2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_iPhone.xib */; };
+		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
+		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		9801489913339318004618AA /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 9801489513339318004618AA /* Default-Landscape.png */; };
+		9801489A13339318004618AA /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 9801489613339318004618AA /* Default-Portrait.png */; };
+		9801489B13339318004618AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9801489713339318004618AA /* Default.png */; };
+		9801489C13339318004618AA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9801489813339318004618AA /* Default@2x.png */; };
+		9827BE6A133C3BE5009CB917 /* card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9827BE69133C3BE5009CB917 /* card@2x.png */; };
+		9827BE6E133C3FEE009CB917 /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9827BE6C133C3FEE009CB917 /* backButton.png */; };
+		9827BE6F133C3FEE009CB917 /* backButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9827BE6D133C3FEE009CB917 /* backButton@2x.png */; };
+		9827BE72133C43BD009CB917 /* findButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9827BE70133C43BD009CB917 /* findButton.png */; };
+		9827BE73133C43BD009CB917 /* findButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9827BE71133C43BD009CB917 /* findButton@2x.png */; };
+		988240A31331B55F007B8BD9 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 988240A01331B55F007B8BD9 /* Icon-72.png */; };
+		988240A41331B55F007B8BD9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 988240A11331B55F007B8BD9 /* Icon.png */; };
+		988240A51331B55F007B8BD9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 988240A21331B55F007B8BD9 /* Icon@2x.png */; };
+		98AE3FD713356CB600AD209E /* iPad-Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 98AE3FD613356CB600AD209E /* iPad-Settings.png */; };
+		98AE3FDD1336472500AD209E /* buttonLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 98AE3FD91336472500AD209E /* buttonLeft.png */; };
+		98AE3FDE1336472500AD209E /* buttonLeftPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 98AE3FDA1336472500AD209E /* buttonLeftPressed.png */; };
+		98AE3FDF1336472500AD209E /* buttonRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 98AE3FDB1336472500AD209E /* buttonRight.png */; };
+		98AE3FE01336472500AD209E /* buttonRightPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 98AE3FDC1336472500AD209E /* buttonRightPressed.png */; };
+		98AE3FE213364DB200AD209E /* buttonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 98AE3FE113364DB200AD209E /* buttonBackground.png */; };
+		E6587CD8133844D90074EE85 /* cardBackSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = E6587CD7133844D90074EE85 /* cardBackSelected.png */; };
+		E6587EA51339A2490074EE85 /* AFItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6587E9F1339A2490074EE85 /* AFItemView.m */; };
+		E6587EA61339A2490074EE85 /* AFOpenFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6587EA21339A2490074EE85 /* AFOpenFlowView.m */; };
+		E6587EA71339A2490074EE85 /* AFUIImageReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = E6587EA41339A2490074EE85 /* AFUIImageReflection.m */; };
+		E6B34079132B20B3008BB57B /* IconView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B34078132B20B3008BB57B /* IconView.m */; };
+		E6B3407B132B28D2008BB57B /* ScrumCard.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6B3407A132B28D1008BB57B /* ScrumCard.xib */; };
+		E6B340DD132BF89D008BB57B /* cardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = E6B340DC132BF89D008BB57B /* cardBack.png */; };
+		E6C7ABBE133459C700243710 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C7ABBD133459C700243710 /* libFlurry.a */; };
+		E6C7ABC01335044400243710 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E6C7ABBF1335044400243710 /* Icon.png */; };
+		E6C7ABC21335045C00243710 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6C7ABC11335045C00243710 /* Icon@2x.png */; };
+		E6C7ABC4133504B900243710 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E6C7ABC3133504B900243710 /* Icon-72.png */; };
+		E6C7ABC6133504C800243710 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E6C7ABC5133504C800243710 /* Default-Landscape~ipad.png */; };
+		E6C7ABC8133504D300243710 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E6C7ABC7133504D300243710 /* Default-Portrait~ipad.png */; };
+		E6C7ABCA133508BD00243710 /* iPad-Background.png in Resources */ = {isa = PBXBuildFile; fileRef = E6C7ABC9133508BD00243710 /* iPad-Background.png */; };
+		E6C7ABCF13350D0600243710 /* NavBar-background.png in Resources */ = {isa = PBXBuildFile; fileRef = E6C7ABCE13350D0600243710 /* NavBar-background.png */; };
+		E6C7ABD1133510CE00243710 /* iPad-Background-noheader.png in Resources */ = {isa = PBXBuildFile; fileRef = E6C7ABD0133510CD00243710 /* iPad-Background-noheader.png */; };
+		E6CF25D31325C92800A28B39 /* CardView_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CF25D11325C92800A28B39 /* CardView_iPhone.m */; };
+		E6CF25D41325C92800A28B39 /* CardView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6CF25D21325C92800A28B39 /* CardView_iPhone.xib */; };
+		E6CF26D91325CE7300A28B39 /* CardListView_IPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CF26D71325CE7300A28B39 /* CardListView_IPhone.m */; };
+		E6CF26DA1325CE7300A28B39 /* CardListView_IPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6CF26D81325CE7300A28B39 /* CardListView_IPhone.xib */; };
+		E6CF27CE1325DAB700A28B39 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CF27CD1325DAB700A28B39 /* QuartzCore.framework */; };
+		E6CF288D1325E03B00A28B39 /* SettingsView_IPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CF288B1325E03B00A28B39 /* SettingsView_IPhone.m */; };
+		E6CF288E1325E03B00A28B39 /* SettingsView_IPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6CF288C1325E03B00A28B39 /* SettingsView_IPhone.xib */; };
+		E6CF291F1325E7CF00A28B39 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CF291E1325E7CF00A28B39 /* GameKit.framework */; };
+		E6CF292C1325E99A00A28B39 /* ModeSelectView_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CF292A1325E99A00A28B39 /* ModeSelectView_iPad.m */; };
+		E6CF292D1325E99A00A28B39 /* ModeSelectView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6CF292B1325E99A00A28B39 /* ModeSelectView_iPad.xib */; };
+		E6CF29371325EAC800A28B39 /* ServerView_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CF29351325EAC800A28B39 /* ServerView_iPad.m */; };
+		E6CF29381325EAC800A28B39 /* ServerView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6CF29361325EAC800A28B39 /* ServerView_iPad.xib */; };
+		E6DF73751328652500CD7EAA /* ServerCards.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DF73741328652500CD7EAA /* ServerCards.m */; };
+		E6DF7489132896CA00CD7EAA /* ScrumCard.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DF7488132896CA00CD7EAA /* ScrumCard.m */; };
+		E6DF748F1328989A00CD7EAA /* ServerCardValue.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DF748E1328989A00CD7EAA /* ServerCardValue.m */; };
+		E6E32E7A1325EEC4002B78F4 /* ScrumClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E32E791325EEC4002B78F4 /* ScrumClient.m */; };
+		E6E32FE81326024D002B78F4 /* CardListView_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E32FE61326024D002B78F4 /* CardListView_iPad.m */; };
+		E6E32FE91326024D002B78F4 /* CardListView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6E32FE71326024D002B78F4 /* CardListView_iPad.xib */; };
+		E6E32FEF13260312002B78F4 /* CardView_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E32FED13260312002B78F4 /* CardView_iPad.m */; };
+		E6E32FF013260312002B78F4 /* CardView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6E32FEE13260312002B78F4 /* CardView_iPad.xib */; };
+		E6E32FF6132603D0002B78F4 /* SettingsView_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E32FF4132603D0002B78F4 /* SettingsView_iPad.m */; };
+		E6E32FF7132603D0002B78F4 /* SettingsView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6E32FF5132603D0002B78F4 /* SettingsView_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* ScrumBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrumBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		2860E327111B887F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		2860E32B111B888700E27156 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPad.h; sourceTree = "<group>"; };
+		2860E32C111B888700E27156 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPad.m; sourceTree = "<group>"; };
+		2860E32D111B888700E27156 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ScrumBoard_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrumBoard_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ScrumBoard-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ScrumBoard-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9801489513339318004618AA /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "Images/Default-Landscape.png"; sourceTree = "<group>"; };
+		9801489613339318004618AA /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "Images/Default-Portrait.png"; sourceTree = "<group>"; };
+		9801489713339318004618AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Images/Default.png; sourceTree = "<group>"; };
+		9801489813339318004618AA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Images/Default@2x.png"; sourceTree = "<group>"; };
+		9827BE69133C3BE5009CB917 /* card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "card@2x.png"; path = "Images/card@2x.png"; sourceTree = "<group>"; };
+		9827BE6C133C3FEE009CB917 /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backButton.png; path = Images/backButton.png; sourceTree = "<group>"; };
+		9827BE6D133C3FEE009CB917 /* backButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "backButton@2x.png"; path = "Images/backButton@2x.png"; sourceTree = "<group>"; };
+		9827BE70133C43BD009CB917 /* findButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = findButton.png; path = Images/findButton.png; sourceTree = "<group>"; };
+		9827BE71133C43BD009CB917 /* findButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "findButton@2x.png"; path = "Images/findButton@2x.png"; sourceTree = "<group>"; };
+		988240A01331B55F007B8BD9 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Images/Icon-72.png"; sourceTree = "<group>"; };
+		988240A11331B55F007B8BD9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Images/Icon.png; sourceTree = "<group>"; };
+		988240A21331B55F007B8BD9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Images/Icon@2x.png"; sourceTree = "<group>"; };
+		98AE3FD613356CB600AD209E /* iPad-Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-Settings.png"; path = "Images/iPad-Settings.png"; sourceTree = "<group>"; };
+		98AE3FD91336472500AD209E /* buttonLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonLeft.png; path = Images/buttonLeft.png; sourceTree = "<group>"; };
+		98AE3FDA1336472500AD209E /* buttonLeftPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonLeftPressed.png; path = Images/buttonLeftPressed.png; sourceTree = "<group>"; };
+		98AE3FDB1336472500AD209E /* buttonRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonRight.png; path = Images/buttonRight.png; sourceTree = "<group>"; };
+		98AE3FDC1336472500AD209E /* buttonRightPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonRightPressed.png; path = Images/buttonRightPressed.png; sourceTree = "<group>"; };
+		98AE3FE113364DB200AD209E /* buttonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonBackground.png; path = Images/buttonBackground.png; sourceTree = "<group>"; };
+		E6587CD7133844D90074EE85 /* cardBackSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardBackSelected.png; path = Images/cardBackSelected.png; sourceTree = "<group>"; };
+		E6587E9E1339A2490074EE85 /* AFItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFItemView.h; sourceTree = "<group>"; };
+		E6587E9F1339A2490074EE85 /* AFItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFItemView.m; sourceTree = "<group>"; };
+		E6587EA01339A2490074EE85 /* AFOpenFlowConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOpenFlowConstants.h; sourceTree = "<group>"; };
+		E6587EA11339A2490074EE85 /* AFOpenFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOpenFlowView.h; sourceTree = "<group>"; };
+		E6587EA21339A2490074EE85 /* AFOpenFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOpenFlowView.m; sourceTree = "<group>"; };
+		E6587EA31339A2490074EE85 /* AFUIImageReflection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUIImageReflection.h; sourceTree = "<group>"; };
+		E6587EA41339A2490074EE85 /* AFUIImageReflection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUIImageReflection.m; sourceTree = "<group>"; };
+		E6B34077132B20B3008BB57B /* IconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconView.h; sourceTree = "<group>"; };
+		E6B34078132B20B3008BB57B /* IconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconView.m; sourceTree = "<group>"; };
+		E6B3407A132B28D1008BB57B /* ScrumCard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrumCard.xib; sourceTree = "<group>"; };
+		E6B340DC132BF89D008BB57B /* cardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cardBack.png; path = Images/cardBack.png; sourceTree = "<group>"; };
+		E6C7ABB9133459C700243710 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		E6C7ABBA133459C700243710 /* FlurryAPI+AppCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FlurryAPI+AppCircle.h"; sourceTree = "<group>"; };
+		E6C7ABBB133459C700243710 /* FlurryOffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryOffer.h; sourceTree = "<group>"; };
+		E6C7ABBC133459C700243710 /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAPI.h; sourceTree = "<group>"; };
+		E6C7ABBD133459C700243710 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
+		E6C7ABBF1335044400243710 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E6C7ABC11335045C00243710 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E6C7ABC3133504B900243710 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		E6C7ABC5133504C800243710 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		E6C7ABC7133504D300243710 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		E6C7ABC9133508BD00243710 /* iPad-Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-Background.png"; path = "Images/iPad-Background.png"; sourceTree = "<group>"; };
+		E6C7ABCE13350D0600243710 /* NavBar-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "NavBar-background.png"; path = "Images/NavBar-background.png"; sourceTree = "<group>"; };
+		E6C7ABD0133510CD00243710 /* iPad-Background-noheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-Background-noheader.png"; path = "Images/iPad-Background-noheader.png"; sourceTree = "<group>"; };
+		E6CF25D01325C92800A28B39 /* CardView_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView_iPhone.h; sourceTree = "<group>"; };
+		E6CF25D11325C92800A28B39 /* CardView_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView_iPhone.m; sourceTree = "<group>"; };
+		E6CF25D21325C92800A28B39 /* CardView_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView_iPhone.xib; sourceTree = "<group>"; };
+		E6CF26D61325CE7300A28B39 /* CardListView_IPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardListView_IPhone.h; sourceTree = "<group>"; };
+		E6CF26D71325CE7300A28B39 /* CardListView_IPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardListView_IPhone.m; sourceTree = "<group>"; };
+		E6CF26D81325CE7300A28B39 /* CardListView_IPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardListView_IPhone.xib; sourceTree = "<group>"; };
+		E6CF27CD1325DAB700A28B39 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E6CF288A1325E03B00A28B39 /* SettingsView_IPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView_IPhone.h; sourceTree = "<group>"; };
+		E6CF288B1325E03B00A28B39 /* SettingsView_IPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView_IPhone.m; sourceTree = "<group>"; };
+		E6CF288C1325E03B00A28B39 /* SettingsView_IPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsView_IPhone.xib; sourceTree = "<group>"; };
+		E6CF291E1325E7CF00A28B39 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		E6CF29291325E99A00A28B39 /* ModeSelectView_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeSelectView_iPad.h; sourceTree = "<group>"; };
+		E6CF292A1325E99A00A28B39 /* ModeSelectView_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeSelectView_iPad.m; sourceTree = "<group>"; };
+		E6CF292B1325E99A00A28B39 /* ModeSelectView_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModeSelectView_iPad.xib; sourceTree = "<group>"; };
+		E6CF29341325EAC800A28B39 /* ServerView_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerView_iPad.h; sourceTree = "<group>"; };
+		E6CF29351325EAC800A28B39 /* ServerView_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerView_iPad.m; sourceTree = "<group>"; };
+		E6CF29361325EAC800A28B39 /* ServerView_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ServerView_iPad.xib; sourceTree = "<group>"; };
+		E6DF73731328652500CD7EAA /* ServerCards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerCards.h; sourceTree = "<group>"; };
+		E6DF73741328652500CD7EAA /* ServerCards.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCards.m; sourceTree = "<group>"; };
+		E6DF7487132896CA00CD7EAA /* ScrumCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrumCard.h; sourceTree = "<group>"; };
+		E6DF7488132896CA00CD7EAA /* ScrumCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrumCard.m; sourceTree = "<group>"; };
+		E6DF748D1328989A00CD7EAA /* ServerCardValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerCardValue.h; sourceTree = "<group>"; };
+		E6DF748E1328989A00CD7EAA /* ServerCardValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerCardValue.m; sourceTree = "<group>"; };
+		E6E32E781325EEC4002B78F4 /* ScrumClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrumClient.h; sourceTree = "<group>"; };
+		E6E32E791325EEC4002B78F4 /* ScrumClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrumClient.m; sourceTree = "<group>"; };
+		E6E32FE51326024D002B78F4 /* CardListView_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardListView_iPad.h; sourceTree = "<group>"; };
+		E6E32FE61326024D002B78F4 /* CardListView_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardListView_iPad.m; sourceTree = "<group>"; };
+		E6E32FE71326024D002B78F4 /* CardListView_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardListView_iPad.xib; sourceTree = "<group>"; };
+		E6E32FEC13260312002B78F4 /* CardView_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView_iPad.h; sourceTree = "<group>"; };
+		E6E32FED13260312002B78F4 /* CardView_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView_iPad.m; sourceTree = "<group>"; };
+		E6E32FEE13260312002B78F4 /* CardView_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView_iPad.xib; sourceTree = "<group>"; };
+		E6E32FF3132603D0002B78F4 /* SettingsView_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView_iPad.h; sourceTree = "<group>"; };
+		E6E32FF4132603D0002B78F4 /* SettingsView_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView_iPad.m; sourceTree = "<group>"; };
+		E6E32FF5132603D0002B78F4 /* SettingsView_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsView_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				E6CF27CE1325DAB700A28B39 /* QuartzCore.framework in Frameworks */,
+				E6CF291F1325E7CF00A28B39 /* GameKit.framework in Frameworks */,
+				E6C7ABBE133459C700243710 /* libFlurry.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ScrumBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2860E324111B887F00E27156 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				2860E325111B887F00E27156 /* AppDelegate_iPhone.h */,
+				2860E326111B887F00E27156 /* AppDelegate_iPhone.m */,
+				2860E327111B887F00E27156 /* MainWindow_iPhone.xib */,
+				E6CF25D01325C92800A28B39 /* CardView_iPhone.h */,
+				E6CF25D11325C92800A28B39 /* CardView_iPhone.m */,
+				E6CF25D21325C92800A28B39 /* CardView_iPhone.xib */,
+				E6CF26D61325CE7300A28B39 /* CardListView_IPhone.h */,
+				E6CF26D71325CE7300A28B39 /* CardListView_IPhone.m */,
+				E6CF26D81325CE7300A28B39 /* CardListView_IPhone.xib */,
+				E6CF288A1325E03B00A28B39 /* SettingsView_IPhone.h */,
+				E6CF288B1325E03B00A28B39 /* SettingsView_IPhone.m */,
+				E6CF288C1325E03B00A28B39 /* SettingsView_IPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		2860E32A111B888700E27156 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				E6B34301132C7C33008BB57B /* Server */,
+				E6B34300132C7B54008BB57B /* Client */,
+				2860E32B111B888700E27156 /* AppDelegate_iPad.h */,
+				2860E32C111B888700E27156 /* AppDelegate_iPad.m */,
+				2860E32D111B888700E27156 /* MainWindow_iPad.xib */,
+				E6CF29291325E99A00A28B39 /* ModeSelectView_iPad.h */,
+				E6CF292A1325E99A00A28B39 /* ModeSelectView_iPad.m */,
+				E6CF292B1325E99A00A28B39 /* ModeSelectView_iPad.xib */,
+				E6E32FF3132603D0002B78F4 /* SettingsView_iPad.h */,
+				E6E32FF4132603D0002B78F4 /* SettingsView_iPad.m */,
+				E6E32FF5132603D0002B78F4 /* SettingsView_iPad.xib */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E6B34077132B20B3008BB57B /* IconView.h */,
+				E6B34078132B20B3008BB57B /* IconView.m */,
+				8D1107310486CEB800E47090 /* ScrumBoard-Info.plist */,
+				E6E32E781325EEC4002B78F4 /* ScrumClient.h */,
+				E6E32E791325EEC4002B78F4 /* ScrumClient.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				E6587E9D1339A2490074EE85 /* OpenFlow */,
+				E6C7ABC7133504D300243710 /* Default-Portrait~ipad.png */,
+				E6C7ABC5133504C800243710 /* Default-Landscape~ipad.png */,
+				E6C7ABC3133504B900243710 /* Icon-72.png */,
+				E6C7ABC11335045C00243710 /* Icon@2x.png */,
+				E6C7ABBF1335044400243710 /* Icon.png */,
+				E6C7ABB7133459C700243710 /* FlurryLib */,
+				2860E32A111B888700E27156 /* iPad */,
+				2860E324111B887F00E27156 /* iPhone */,
+				28EEBF621118D79A00187D67 /* Shared */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF25D61325CC6C00A28B39 /* Images */,
+				32CA4F630368D1EE00C91783 /* ScrumBoard_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF27CD1325DAB700A28B39 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				E6CF291E1325E7CF00A28B39 /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6587E9D1339A2490074EE85 /* OpenFlow */ = {
+			isa = PBXGroup;
+			children = (
+				E6587E9E1339A2490074EE85 /* AFItemView.h */,
+				E6587E9F1339A2490074EE85 /* AFItemView.m */,
+				E6587EA01339A2490074EE85 /* AFOpenFlowConstants.h */,
+				E6587EA11339A2490074EE85 /* AFOpenFlowView.h */,
+				E6587EA21339A2490074EE85 /* AFOpenFlowView.m */,
+				E6587EA31339A2490074EE85 /* AFUIImageReflection.h */,
+				E6587EA41339A2490074EE85 /* AFUIImageReflection.m */,
+			);
+			path = OpenFlow;
+			sourceTree = "<group>";
+		};
+		E6B34300132C7B54008BB57B /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				E6E32FE51326024D002B78F4 /* CardListView_iPad.h */,
+				E6E32FE61326024D002B78F4 /* CardListView_iPad.m */,
+				E6E32FE71326024D002B78F4 /* CardListView_iPad.xib */,
+				E6E32FEC13260312002B78F4 /* CardView_iPad.h */,
+				E6E32FED13260312002B78F4 /* CardView_iPad.m */,
+				E6E32FEE13260312002B78F4 /* CardView_iPad.xib */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		E6B34301132C7C33008BB57B /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				E6CF29341325EAC800A28B39 /* ServerView_iPad.h */,
+				E6CF29351325EAC800A28B39 /* ServerView_iPad.m */,
+				E6CF29361325EAC800A28B39 /* ServerView_iPad.xib */,
+				E6DF73731328652500CD7EAA /* ServerCards.h */,
+				E6DF73741328652500CD7EAA /* ServerCards.m */,
+				E6DF7487132896CA00CD7EAA /* ScrumCard.h */,
+				E6DF7488132896CA00CD7EAA /* ScrumCard.m */,
+				E6B3407A132B28D1008BB57B /* ScrumCard.xib */,
+				E6DF748D1328989A00CD7EAA /* ServerCardValue.h */,
+				E6DF748E1328989A00CD7EAA /* ServerCardValue.m */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		E6C7ABB7133459C700243710 /* FlurryLib */ = {
+			isa = PBXGroup;
+			children = (
+				E6C7ABB8133459C700243710 /* AppCircle */,
+				E6C7ABBC133459C700243710 /* FlurryAPI.h */,
+				E6C7ABBD133459C700243710 /* libFlurry.a */,
+			);
+			path = FlurryLib;
+			sourceTree = "<group>";
+		};
+		E6C7ABB8133459C700243710 /* AppCircle */ = {
+			isa = PBXGroup;
+			children = (
+				E6C7ABB9133459C700243710 /* FlurryAdDelegate.h */,
+				E6C7ABBA133459C700243710 /* FlurryAPI+AppCircle.h */,
+				E6C7ABBB133459C700243710 /* FlurryOffer.h */,
+			);
+			path = AppCircle;
+			sourceTree = "<group>";
+		};
+		E6CF25D61325CC6C00A28B39 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9827BE70133C43BD009CB917 /* findButton.png */,
+				9827BE71133C43BD009CB917 /* findButton@2x.png */,
+				9827BE6C133C3FEE009CB917 /* backButton.png */,
+				9827BE6D133C3FEE009CB917 /* backButton@2x.png */,
+				9827BE69133C3BE5009CB917 /* card@2x.png */,
+				E6587CD7133844D90074EE85 /* cardBackSelected.png */,
+				98AE3FE113364DB200AD209E /* buttonBackground.png */,
+				98AE3FD91336472500AD209E /* buttonLeft.png */,
+				98AE3FDA1336472500AD209E /* buttonLeftPressed.png */,
+				98AE3FDB1336472500AD209E /* buttonRight.png */,
+				98AE3FDC1336472500AD209E /* buttonRightPressed.png */,
+				98AE3FD613356CB600AD209E /* iPad-Settings.png */,
+				E6C7ABD0133510CD00243710 /* iPad-Background-noheader.png */,
+				E6C7ABCE13350D0600243710 /* NavBar-background.png */,
+				E6C7ABC9133508BD00243710 /* iPad-Background.png */,
+				9801489513339318004618AA /* Default-Landscape.png */,
+				9801489613339318004618AA /* Default-Portrait.png */,
+				9801489713339318004618AA /* Default.png */,
+				9801489813339318004618AA /* Default@2x.png */,
+				988240A01331B55F007B8BD9 /* Icon-72.png */,
+				988240A11331B55F007B8BD9 /* Icon.png */,
+				988240A21331B55F007B8BD9 /* Icon@2x.png */,
+				E6B340DC132BF89D008BB57B /* cardBack.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ScrumBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ScrumBoard" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrumBoard;
+			productName = ScrumBoard;
+			productReference = 1D6058910D05DD3D006BFB54 /* ScrumBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "DiamondB Software";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ScrumBoard" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ScrumBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */,
+				2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */,
+				E6CF25D41325C92800A28B39 /* CardView_iPhone.xib in Resources */,
+				E6CF26DA1325CE7300A28B39 /* CardListView_IPhone.xib in Resources */,
+				E6CF288E1325E03B00A28B39 /* SettingsView_IPhone.xib in Resources */,
+				E6CF292D1325E99A00A28B39 /* ModeSelectView_iPad.xib in Resources */,
+				E6CF29381325EAC800A28B39 /* ServerView_iPad.xib in Resources */,
+				E6E32FE91326024D002B78F4 /* CardListView_iPad.xib in Resources */,
+				E6E32FF013260312002B78F4 /* CardView_iPad.xib in Resources */,
+				E6E32FF7132603D0002B78F4 /* SettingsView_iPad.xib in Resources */,
+				E6B3407B132B28D2008BB57B /* ScrumCard.xib in Resources */,
+				E6B340DD132BF89D008BB57B /* cardBack.png in Resources */,
+				988240A31331B55F007B8BD9 /* Icon-72.png in Resources */,
+				988240A41331B55F007B8BD9 /* Icon.png in Resources */,
+				988240A51331B55F007B8BD9 /* Icon@2x.png in Resources */,
+				9801489913339318004618AA /* Default-Landscape.png in Resources */,
+				9801489A13339318004618AA /* Default-Portrait.png in Resources */,
+				9801489B13339318004618AA /* Default.png in Resources */,
+				9801489C13339318004618AA /* Default@2x.png in Resources */,
+				E6C7ABC01335044400243710 /* Icon.png in Resources */,
+				E6C7ABC21335045C00243710 /* Icon@2x.png in Resources */,
+				E6C7ABC4133504B900243710 /* Icon-72.png in Resources */,
+				E6C7ABC6133504C800243710 /* Default-Landscape~ipad.png in Resources */,
+				E6C7ABC8133504D300243710 /* Default-Portrait~ipad.png in Resources */,
+				E6C7ABCA133508BD00243710 /* iPad-Background.png in Resources */,
+				E6C7ABCF13350D0600243710 /* NavBar-background.png in Resources */,
+				E6C7ABD1133510CE00243710 /* iPad-Background-noheader.png in Resources */,
+				98AE3FD713356CB600AD209E /* iPad-Settings.png in Resources */,
+				98AE3FDD1336472500AD209E /* buttonLeft.png in Resources */,
+				98AE3FDE1336472500AD209E /* buttonLeftPressed.png in Resources */,
+				98AE3FDF1336472500AD209E /* buttonRight.png in Resources */,
+				98AE3FE01336472500AD209E /* buttonRightPressed.png in Resources */,
+				98AE3FE213364DB200AD209E /* buttonBackground.png in Resources */,
+				E6587CD8133844D90074EE85 /* cardBackSelected.png in Resources */,
+				9827BE6A133C3BE5009CB917 /* card@2x.png in Resources */,
+				9827BE6E133C3FEE009CB917 /* backButton.png in Resources */,
+				9827BE6F133C3FEE009CB917 /* backButton@2x.png in Resources */,
+				9827BE72133C43BD009CB917 /* findButton.png in Resources */,
+				9827BE73133C43BD009CB917 /* findButton@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */,
+				2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */,
+				E6CF25D31325C92800A28B39 /* CardView_iPhone.m in Sources */,
+				E6CF26D91325CE7300A28B39 /* CardListView_IPhone.m in Sources */,
+				E6CF288D1325E03B00A28B39 /* SettingsView_IPhone.m in Sources */,
+				E6CF292C1325E99A00A28B39 /* ModeSelectView_iPad.m in Sources */,
+				E6CF29371325EAC800A28B39 /* ServerView_iPad.m in Sources */,
+				E6E32E7A1325EEC4002B78F4 /* ScrumClient.m in Sources */,
+				E6E32FE81326024D002B78F4 /* CardListView_iPad.m in Sources */,
+				E6E32FEF13260312002B78F4 /* CardView_iPad.m in Sources */,
+				E6E32FF6132603D0002B78F4 /* SettingsView_iPad.m in Sources */,
+				E6DF73751328652500CD7EAA /* ServerCards.m in Sources */,
+				E6DF7489132896CA00CD7EAA /* ScrumCard.m in Sources */,
+				E6DF748F1328989A00CD7EAA /* ServerCardValue.m in Sources */,
+				E6B34079132B20B3008BB57B /* IconView.m in Sources */,
+				E6587EA51339A2490074EE85 /* AFItemView.m in Sources */,
+				E6587EA61339A2490074EE85 /* AFOpenFlowView.m in Sources */,
+				E6587EA71339A2490074EE85 /* AFUIImageReflection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ScrumBoard_Prefix.pch;
+				INFOPLIST_FILE = "ScrumBoard-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlurryLib\"",
+				);
+				PRODUCT_NAME = ScrumBoard;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ScrumBoard_Prefix.pch;
+				INFOPLIST_FILE = "ScrumBoard-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/FlurryLib\"",
+				);
+				PRODUCT_NAME = ScrumBoard;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ScrumBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ScrumBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
